@@ -12,7 +12,12 @@ const MyWork = () => {
                 {mywork_data.map((work,index)=>{
                     return <img key={index} src={work.w_img} alt="" />
                 })}
-            </div>
+                <div className="pro-1"><a href='https://github.com/Subhash1861815/SubhashYadav'>Click here for Github repo Link</a></div>
+                <div className="pro-2"><a href='https://github.com/Subhash1861815/Databases'>Click here for Github repo Link</a></div>
+                <div className="pro-3"><a href='https://github.com/Subhash1861815/GenAI'>Click here for Github repo Link</a></div>     
+            </div>    
+            
+            
             <div className="mywork-showmore">
                 <p>Show More</p>
                 <img src={arrow_icon} alt="" />
